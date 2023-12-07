@@ -6,4 +6,7 @@ public class publicStaticFieldShouldBeFinal{
   public static String BYE = "Bye bye friends";
   
   public static final String ARA_ARA = "ara ara gome";
+  public static void printStmt(){
+    System.out.println("Hello");
+  }
 }
