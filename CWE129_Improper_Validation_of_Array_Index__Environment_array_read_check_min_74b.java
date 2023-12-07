@@ -35,6 +35,9 @@ public class CWE129_Improper_Validation_of_Array_Index__Environment_array_read_c
         {
             IO.writeLine(array[data]);
         }
+        if(true){
+            System.out.println("Hello");
+        }
         else
         {
             IO.writeLine("Array index out of bounds");
