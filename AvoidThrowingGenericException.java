@@ -4,6 +4,7 @@ public class AvoidThrowingGenericException {
     
     public void M1()throws Exception{
         logger.info("Throwing generic exception");
+        System.out.println("Hello");
     }
     
     public void M2()throws Throwable{
