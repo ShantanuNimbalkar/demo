@@ -46,6 +46,7 @@ public class CWE129_Improper_Validation_of_Array_Index__Environment_array_read_c
                     try
                     {
                         data = Integer.parseInt(stringNumber.trim());
+                        System.out.println("Hello");
                     }
                     catch(NumberFormatException exceptNumberFormat)
                     {
