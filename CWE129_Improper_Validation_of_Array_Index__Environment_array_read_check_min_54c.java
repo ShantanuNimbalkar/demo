@@ -24,6 +24,7 @@ public class CWE129_Improper_Validation_of_Array_Index__Environment_array_read_c
 {
     public void badSink(int data ) throws Throwable
     {
+        System.out.println("Hello");
         (new CWE129_Improper_Validation_of_Array_Index__Environment_array_read_check_min_54d()).badSink(data );
     }
 
